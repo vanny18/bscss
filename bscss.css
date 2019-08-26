@@ -1,0 +1,402 @@
+
+/*General.css*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: Tahoma;
+    font-size: 12px;
+    background: #880000 url(https://i.imgur.com/WGuz2nx.jpg) top center no-repeat;
+    position:relative;
+    background-size: cover;
+}
+.header {	width: 990px; position: relative; margin: -15px auto;}
+.wrapper {
+	width: 990px !important;
+	margin: 0px auto;
+	position: relative;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*end reset*/
+
+.message {
+    margin: 10px 6px;
+}
+
+#runningText {
+    float: right;
+    color: #fff;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 97%;
+    font-size: 17px;
+    height: auto;
+    margin: 3px 0;
+}
+
+/*menu*/
+
+.menu {
+    background:url(https://i.imgur.com/xHZTrKM.png) center top no-repeat;
+    width: 990px;
+    height: 39px;
+    float: left;
+    margin: -10px 0 0 -11px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 7px 30px 0 40px;
+    margin: -3px 0 0 -26px;
+}
+
+.menu li a {
+    color: #fae568;
+    font-family: '33535gillsansmt' !important;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu li a {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.menu li a:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.menu li a img {
+    vertical-align: middle;
+}
+
+
+
+/* Caption styles */
+
+div.mc-caption-bg,
+div.mc-caption-bg2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    left: 0px;
+    bottom: 15px;
+    z-index: 3;
+    overflow: hidden;
+    font-size: 0;
+}
+
+div.mc-caption-bg {
+    background-color: black;
+}
+
+div.mc-caption {
+    font: bold 14px/20px Arial;
+    color: #EEE;
+    z-index: 4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+div.mc-caption a {
+    color: #FB0;
+}
+
+div.mc-caption a:hover {
+    color: #DA0;
+}
+/* --------- Others ------- */
+.btn-login {
+    background: url(https://i.imgur.com/kEJwFDi.png) center no-repeat;
+    width: 75px;
+    height: 21px;
+    cursor: pointer;
+    color: #fae568;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.btn-Reg{
+    background: url(https://i.imgur.com/2WI2kKk.gif) center no-repeat;
+    width: 75px;
+    height: 21px;
+    cursor: pointer;
+    color: #fae568;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+input[name=txtUserName],input[name=pwd],input[name=code],label,input[name=Login]{
+    width: 119px;
+    height: 23px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    color:#303131;
+    padding-left:5px;
+    text-align: left;
+    font-family: Arial;
+}
+input[name=txtPassword],input[name=pwd],input[name=code],label,input[name=Login]{
+    width: 119px;
+    height: 23px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    color:#303131;
+    padding-left:5px;
+    text-align: left;
+    font-family: Arial;
+}
+#Text1{
+    width: 119px;
+    height: 23px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    color:#303131;
+    padding-left:5px;
+    text-align: left;
+    font-family: Arial;
+}
+
+input[name=txtCode],input[name=number],input[name=Login]{
+    width: 44px;
+    height: 23px;
+    text-align: center;
+    padding: 0;
+    outline: none;
+	font-size: 15px;
+    color:#303131;
+	font-family: Arial;
+	border:none
+}
+input[name=number]{
+    width: 75px;
+    height: 21px;
+    font-family: Kievit-Black;
+    text-align: center;
+    color: 303131;
+    font-size: 17px;
+    border: none;
+}
+/* slide */
+#sliderFrame {
+    position: relative;
+    width: 990px;
+    margin: -10px 0 0 -6px
+}
+#slider {
+    width: 990px;
+    height: 378px;
+    /* Make it the same size as your images */
+    background: #fff url(http://4.bp.blogspot.com/-aVGCcclfKQo/UR-T3vxFAMI/AAAAAAAABm8/ncwIfUdoLIw/s1600/loading.gif) no-repeat 50% 50%;
+    position: relative;
+    margin: 0 auto;
+    /*make the image slider center-aligned */
+    -webkit-box-shadow: 0px 1px 5px #999999;
+    -moz-box-shadow: 0px 1px 5px #999999;
+    box-shadow: 0px 1px 5px #999999;
+}
+
+#slider img {
+    position: absolute;
+    border: none;
+    display: none;
+}
+.produk {
+    background:url(https://i.imgur.com/enHpCGE.png) center top no-repeat;
+    width: 990px;
+    height: 170px;
+    float: left;
+    margin: 8px 0 0 0px;
+}
+
+.produk li {
+    display: inline-block;
+    padding: 7px 0px 0 0px;
+    margin: 0px -2px 0px 3px;
+}
+.produk li a {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.produk li a:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.produk li a img {
+    vertical-align: middle;
+}
+#togel {
+	float: left;
+	-webkit-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	}
+#togel .result-title {
+	font-size: 20px;
+	color: #fae568;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	margin-top: -10%;
+    padding: 0px 0 0 40px;
+    position: relative;
+	}
+#togel .result-pools {
+	height: 330px;
+	float: right;
+	width: 324px;
+	position: relative;
+	}
+#togel .pools-date {
+	padding-top: 0px;
+	text-align: center;
+	color: #fae568;
+	font-size: 13px;
+	}
+#togel .result-num {
+	position: relative;
+	top: 25px;
+	color: #FFF;
+	}
+#togel .result-num .num {
+	font-size: 49px;
+	font-weight: bold;
+	position: relative;font-family: arial;
+	color: #043d44;
+	-webkit-text-fill-color: #fbf174;
+	}
+#togel .result-num .num:first-child {
+	left: 28px;
+	}
+#togel .result-num .num:nth-child(2) {
+	left: 53px;
+	}
+#togel .result-num .num:nth-child(3) {
+	left: 80px;
+	}
+#togel .result-num .num:nth-child(4) {
+	left: 105px;
+}
+.dropdown { 
+  color: #fae568;
+  font-family: '33535gillsansmt' !important;
+  margin: 35px 0px 0px 5px;
+  padding: 0px 32px;
+  font-size: 22px;
+  float: left;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  font-size: 15px;
+  width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 20px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.pulsa {
+ 	width: 990px;
+	height: 100px;
+	background: url(https://i.imgur.com/jHn789h.png) no-repeat center center;
+	float: left;
+    margin: 1px 0px;
+}
+#bank {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 990px;
+  background:url(https://i.imgur.com/jTxh7zX.png) center top no-repeat;
+  height: 141px;
+  float: left;
+  position: relative;
+}
+#bank th {
+  padding-top: 50px;
+  text-align: left;
+  color: #fae568;
+  font-size: 14px;
+  padding-left: 10px;
+}
+#keterangan {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: url(https://i.imgur.com/bZhH02y.png) no-repeat center center;
+  border-collapse: collapse;
+  width: 990px;
+  height: 250px;
+  float: left;
+  position: relative;
+}
+#keterangan th {
+  padding-top: 120px;
+  text-align: left;
+  color: #fae568;
+  font-size: 15px;
+}
+.Foster {color: #fae568;font-size: 12px;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
